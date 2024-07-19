@@ -5,7 +5,7 @@ export const AppRoutes = () => {
         <Routes>
             <Route path="/pagina-inicial" element={<p>Pagina inicial</p>}/>
 
-            <Route path="*" element={ <Navigate to="/pagina-inicial"/>}/>
+            <Route path="*" element={<Navigate to="/pagina-inicial"/>}/>
 
 
 
